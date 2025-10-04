@@ -143,6 +143,11 @@ input {
 .background-button {
   background-color: var(--color-brown-2);
 }
+.background-button:hover {
+  background-color: var(--color-brown-3);
+  color: var(--color-white);
+  transition: background-color 0.2s, color 0.2s;
+}
 .color-button {
   color: var(--color-blue-6);
 }
